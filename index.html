@@ -36,7 +36,7 @@
     <main>
       <section>
         <article>
-          <div id="carouselExampleIndicators" class="carousel slide abajo" data-ride="carousel">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -80,7 +80,7 @@
               <h2>ORADORES</h2>
             </div>
             <div>
-              <div class="row">
+              <div class="row padre2">
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
                       <img src="./imagenes/steve.jpg" class="card-img-top" alt="...">
@@ -195,17 +195,35 @@
     <footer class="padre">
       <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light opciones">
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active pie" href="#">Preguntas Frecuentes <span class="sr-only">(current)</span></a>
-              <a class="nav-link pie" href ="#">Contactanos</a>
-              <a class="nav-link pie" href="#">Prensa</a>
-              <a class="nav-link pie" href="#">Conferencias</a>
-              <a class="nav-link pie" href="#">Terminos y condiciones</a>
-              <a class="nav-link pie" href="#">Conferencias</a>
-              <a class="nav-link pie" href="#">Privacidad</a>
-              <a class="nav-link pie" href="#">estudiantes</a>
-            </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link active pie" href="#">Preguntas Frecuentes <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pie" href="#">Prensa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pie" href="#">Conferencias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pie" href="#">Terminos y condiciones</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link pie" href="#">Conferencias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pie" href="#">Privacidad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pie" href="#">estudiantes</a>
+              </li>
+
+            </ul>
           </div>
         </nav>
       </div>
