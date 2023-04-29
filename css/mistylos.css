@@ -8,8 +8,8 @@
 
 
 div{position:relative !important}
-.texto{color: rgb(255, 255, 255); font-size: 12px ; text-align: right!important}
-.baner{float:right;z-index: 2; top:-300px;right: 5% !important;}
+.texto{color: rgb(255, 255, 255); font-size: 1em ; text-align: right!important}
+.baner{float:right;z-index: 2; top:60%;right: 5%;position:absolute !important;}
 .boton3{background-color:transparent;margin-right: 15px; border: solid 1px white!important}
 .boton4{background-color: green; border: solid 1px green!important}
 
@@ -18,7 +18,7 @@ div{position:relative !important}
 .presenta{background:rgb(252, 252, 252)!important}
 .presen{background: rgb(92, 88, 88); margin: 0%; color:white;font-size: 13px !important}
 .hijo{margin:10px 0px;padding: 0px!important; ;}
-
+.fila{width: 100%;}
 .boton1{background-color: #a2a3a5!important;}
 .boton2{background-color: red!important;}
 
