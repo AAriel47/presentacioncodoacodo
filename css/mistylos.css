@@ -1,7 +1,5 @@
 *{margin:0;padding:0;box-sizing: border-box !important;}
 
-.padre2{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
-.padre{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
 .presenta{background:rgb(252, 252, 252)!important}
 .presen{background: rgb(92, 88, 88); margin: 0%; color:white;font-size: 8px !important}
 .hijo{margin:8px 0px;padding: 0px!important; ;}
@@ -13,6 +11,7 @@
 
 form{margin:0 auto; width: 60%; padding:1% !important;}
 .boton{color:white;background-color: rgb(81, 143, 52);width: 100% !important}
+.centro{text-align:center!important;}
 
 
 body{background: #ffffff!important}
@@ -41,6 +40,8 @@ body{background: #ffffff!important}
     footer{background-color: #535966;height:100px; font-size: 8px!important; }
     .pie{background-color: #535966; font-size: 8px!important}
     .opciones{background: #535966!important;}
+    .padre2{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
+    .padre{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
 }
 
 @media screen and (orientation : portrait) and (min-width:401px){
@@ -60,6 +61,8 @@ body{background: #ffffff!important}
     footer{background-color: #535966;height:100px; font-size: 8px!important; }
     .pie{background-color: #535966; font-size: 8px!important}
     .opciones{background: #535966!important;}
+    .padre2{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
+    .padre{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
 }
 
 
@@ -80,6 +83,8 @@ body{background: #ffffff!important}
     footer{background-color: #535966;height:100px; font-size: 8px!important; }
     .pie{background-color: #535966; font-size: 8px!important}
     .opciones{background: #535966!important;}
+    .padre2{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
+    .padre{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
  }
 
 @media screen and (orientation : portrait) and (min-width: 800px) and (max-width:990px){
@@ -99,6 +104,8 @@ body{background: #ffffff!important}
      footer{background-color: #535966;height:100px; font-size: 8px!important; }
     .pie{background-color: #535966; font-size: 8px!important}
     .opciones{background: #535966!important;}
+    .padre2{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
+    .padre{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
 }
 
 @media screen and (orientation : portrait) and (min-width: 990px) and (max-width:1080px){
@@ -120,6 +127,8 @@ div{position:relative !important}
 footer{background-color: #535966 !important; }
 .pie{background-color: #535966; font-size: 15px; color:white;margin: 0px 5px;padding:10px; height:60px!important}
 .opciones{background: #535966!important;}
+.padre2{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
+.padre{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
 }
 
 @media screen and (orientation : portrait) and (min-width: 1080px) and (max-width:1380px){
@@ -134,13 +143,15 @@ footer{background-color: #535966 !important; }
 
 div{position:relative !important}
 .texto{color: rgb(255, 255, 255); font-size: 1em ; text-align: right!important}
-.baner{float:right;z-index: 2; top:20%;right: 5%;position:absolute !important;}
+.baner{float:right;z-index: 2; top:15%;right: 5%;position:absolute !important;}
 .boton3{background-color:transparent;margin-right: 15px; border: solid 1px white!important}
 .boton4{background-color: green; border: solid 1px green!important}
 
 footer{background-color: #535966 !important; }
 .pie{background-color: #535966; font-size: 15px; color:white;margin: 0px 5px;padding:10px; height:60px!important}
 .opciones{background: #535966!important;}
+.padre2{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
+.padre{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
 }
 
 @media screen and (orientation : landscape) and (min-width:360px) and (max-width: 480px)  {
@@ -159,6 +170,8 @@ footer{background-color: #535966 !important; }
     footer{background-color: #535966;height:100px; font-size: 8px!important; }
     .pie{background-color: #535966; font-size: 8px!important}
     .opciones{background: #535966!important;}
+    .padre2{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
+    .padre{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
 }
 
 @media screen and (orientation : landscape) and (min-width:480px) and (max-width:500px){
@@ -178,6 +191,8 @@ footer{background-color: #535966 !important; }
     footer{background-color: #535966;height:100px; font-size: 8px!important; }
     .pie{background-color: #535966; font-size: 8px!important}
     .opciones{background: #535966!important;}
+    .padre2{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
+    .padre{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
 }
 
 @media screen and (orientation : landscape) and (min-width:500px) and (max-width:800px){
@@ -197,6 +212,8 @@ footer{background-color: #535966 !important; }
     footer{background-color: #535966;height:100px; font-size: 8px!important; }
     .pie{background-color: #535966; font-size: 8px!important}
     .opciones{background: #535966!important;}
+    .padre2{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
+    .padre{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
 }
 
 @media screen and (orientation : landscape) and (min-width:800px) and (max-width:990px){
@@ -216,9 +233,11 @@ footer{background-color: #535966 !important; }
     footer{background-color: #535966;height:100px; font-size: 8px!important; }
     .pie{background-color: #535966; font-size: 8px!important}
     .opciones{background: #535966!important;}
+    .padre2{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
+    .padre{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
 }
 
-@media screen and (orientation : landscape) and (min-width:990px) and (max-width:1082px){
+@media screen and (orientation : landscape) and (min-width:990px) and (max-width:1115px){
     .menu{font-size: 12px!important;}
     .color{background: #353a40 !important;}
     .flotar{float: left;position: fixed; top:0; left: 0px; z-index: 3;width: 100%!important; }
@@ -228,16 +247,18 @@ footer{background-color: #535966 !important; }
     .desplegable{background:rgb(202, 183, 183);margin-right: 15%;margin-bottom:1%!important}
 
     .texto{color: rgb(255, 255, 255); font-size: 8px ; text-align: right!important}
-    .baner{float:right;z-index: 2; top:50%;right: 5%;position:absolute !important;}
+    .baner{float:right;z-index: 2; top:40%;right: 5%;position:absolute !important;}
     .boton3{background-color:transparent;margin-right: 15px; border: solid 1px white!important}
     .boton4{background-color: green; border: solid 1px green!important}
 
     footer{background-color: #535966;height:100px; font-size: 8px!important; }
     .pie{background-color: #535966; font-size: 8px!important}
     .opciones{background: #535966!important;}
+    .padre2{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
+    .padre{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
 }
 
-@media screen and (orientation: landscape) and (min-width: 1083px){
+@media screen and (orientation: landscape) and (min-width: 1116px){
     .menu{font-size: 12px; text-align: center!important;}
     .flotar{float: left;position: fixed; top:0; left: 0px; z-index: 3;width: 100%!important; }
     .color{background: #353a40 !important;}
@@ -247,7 +268,7 @@ footer{background-color: #535966 !important; }
     
     div{position:relative !important}
     .texto{color: rgb(255, 255, 255); font-size: 1em ; text-align: right!important}
-    .baner{float:right;z-index: 2; top:50%;right: 5%;position:absolute !important;}
+    .baner{float:right;z-index: 2; top:45%;right: 5%;position:absolute !important;}
     .boton3{background-color:transparent;margin-right: 15px; border: solid 1px white!important}
     .boton4{background-color: green; border: solid 1px green!important}
     
@@ -279,9 +300,7 @@ footer{background-color: #535966 !important; }
     .parra{text-align: center !important}
    }
 
- @media screen and (min-width: 1367px){
- 
-    }
+
     
 
   
