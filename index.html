@@ -12,6 +12,7 @@
   </head>
   <body>
     <header">
+      <a name="conferencia"></a>
       <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light color menu flotar margen1">
         <figure class="imagen">
@@ -23,11 +24,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active seleccion" href="#">La conferencia <span class="sr-only">(current)</span></a>
-            <a class="nav-link seleccion" href ="#">Oradores</a>
-            <a class="nav-link seleccion" href="#">El lugar y la fecha</a>
-            <a class="nav-link seleccion" href="#">Conviertete en un orador</a>
-            <a class="nav-link tickets t" href="#">Comprar tickets</a>
+            <a class="nav-link active seleccion" href="#conferencia">La conferencia <span class="sr-only">(current)</span></a>
+            <a class="nav-link seleccion" href ="#oradores">Oradores</a>
+            <a class="nav-link seleccion" href="#lugaryfecha">El lugar y la fecha</a>
+            <a class="nav-link seleccion" href="#conviertete">Conviertete en un orador</a>
+            <a class="nav-link tickets t" href="#tickets">Comprar tickets</a>
           </div>
         </div>
       </nav>
@@ -75,6 +76,7 @@
         </div>
         </article>
         <article class="presenta padre">
+            <a name="oradores"></a>
             <div class="titulo">
               <h5 class="centro">conoce a los</h5>
               <h2>ORADORES</h2>
@@ -118,9 +120,11 @@
                     </div> 
                 </div>
               </div>
+
             </div>
         </article>
-        <article class="presen padre">       
+        <a name="lugaryfecha"></a>     
+        <article class="presen padre">  
               <div class="row fila">
                 <div class="col-sm playa">
                   <img src="./imagenes/honolulu.jpg" width="100%">
@@ -137,21 +141,21 @@
         </article>
         <article class="presenta">
            <div class="container"> 
+                <a name="conviertete"></a>
                 <div>                
                   <h5 class="parrafo">Conviertete en un</h5>
                   <h2 class="parra">Orador</h2>
                 </div>
-
                 <form class="form" novalidate >
                   <div class="form-row">
                     <div class="col-md-6 mb-3">
-                      <input type="text" class="form-control" id="validationCustom01" value="Nombre" required>
+                      <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre" required>
                       <div class="valid-feedback">
                         Looks good!
                       </div>
                     </div>
                     <div class="col-md-6 mb-3">
-                      <input type="text" class="form-control" id="validationCustom02" value="Apellido" required>
+                      <input type="text" class="form-control" id="validationCustom02" placeholder="Apellido" required>
                       <div class="valid-feedback">
                         Looks good!
                       </div>
@@ -159,15 +163,14 @@
                   </div>
                   <div class="form-row">
                       <label for="validationCustom03"></label>
-                      <textarea class="form-control texta" name = "comentarios" id="validationCustom03" value="Sobre que hablara" rows= "5" cols="300" required>Sobre que quiere hablar?</textarea>
+                      <textarea class="form-control texta" name = "comentarios" id="validationCustom03" placeholder="Sobre que hablara" rows= "5" cols="300" required>Sobre que quiere hablar?</textarea>
                       <div class="invalid-feedback">
                         Por favor ingrese sobre lo que hablara
                       </div>
                   </div>
                   <h6>Recuerda incluir un titulo para tu charla</h6>
                   <button class="btn btn-primary boton" type="submit">Enviar formulario</button>
-                </form>
-                
+                </form>      
                 <script>
                 // Example starter JavaScript for disabling form submissions if there are invalid fields
                 (function() {
