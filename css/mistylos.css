@@ -22,7 +22,8 @@ body{background: #ffffff!important}
 .parrafo{font-size: 8px; text-align: center;padding:1% !important}
 .parra{text-align: center !important}
 
-.ticket{margin-top:100px !important;}
+/*ticket Margin-top:100px*/
+.ticket{margin-top:13px !important;} 
 .ticop{border: solid blue 1px; text-align:center; background-color:rgb(181, 253, 167) !important;}
 .colorp{font-weight:bold !important;}
 .fancho{width: 85% !important;}

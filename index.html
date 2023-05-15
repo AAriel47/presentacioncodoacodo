@@ -28,7 +28,7 @@
             <a class="nav-link seleccion" href ="#oradores">Oradores</a>
             <a class="nav-link seleccion" href="#lugaryfecha">El lugar y la fecha</a>
             <a class="nav-link seleccion" href="#conviertete">Conviertete en un orador</a>
-            <a class="nav-link tickets t" href="#tickets">Comprar tickets</a>
+            <a class="nav-link tickets t" href="#venta">Comprar tickets</a>
           </div>
         </div>
       </nav>
@@ -71,8 +71,9 @@
                 evento, a otros estudiantes de Codo a Codo y a los oradores del primer<br>
                 nivel que tenemos para ti. Te esperamos!
             </p>
-            <button class="btn btn-primary boton3" type="submit">Quiero ser Orador</button>
-            <button class="btn btn-primary boton4" type="submit">Comprar tickets</button>
+
+            <a href="#conviertete"><button class="btn btn-primary boton3" type="submit">Quiero ser Orador</button></a>
+            <a href="#venta"><button class="btn btn-primary boton4" type="submit">Comprar tickets</button></a>
         </div>
         </article>
         <article class="presenta padre">
@@ -193,6 +194,132 @@
                 </script>
           </div>
         </article>
+
+<a name = "venta"></a>
+      <article class="presenta padre ticket">
+          <div>
+            <div class="row padre2">
+              <div class="col-sm">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body ticop">
+                        <h2 class="colorp">Estudiante</h2>
+                        <h5 class="card-title">Tiene un descuento </h5>
+                        <h3 class="card-text colorp">80%</h3>
+                        <p class="card-text">* Presentar documentación</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body ticop">
+                      <h2 class="colorp">Trainee</h2>
+                      <h5 class="card-title">Tiene un descuento </h5>
+                      <h3 class="card-text colorp">50%</h3>
+                      <p class="card-text">* Presentar documentación</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body ticop">
+                      <h2 class="colorp">Junior</h2>
+                      <h5 class="card-title">Tiene un descuento</h5>
+                      <h3 class="card-text colorp">15%</h3>
+                      <p class="card-text">* Presentar documentación</p>
+                    </div>
+                  </div> 
+              </div>
+            </div>
+          </div>
+      </article>
+      <article class="presenta">
+         <div class="container"> 
+              <div>                
+                <h5 class="centrof">Venta</h5>
+                <h2 class="form2">VALOR DE TICKET $200</h2>
+              </div>
+              <form class="form fancho" novalidate id = "form">
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Apellido" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-row email">
+                    <input type="email" class="form-control" id="validationCustom03" placeholder="Correo" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label for="validationCustom04">Cantidad</label>
+                    <input type="text" class="form-control" id="validationCustom04" placeholder="Cantidad" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                   <label for="validationCustom05">Categoría</label> 
+                    <select name = "categoria" class="form-control" id="validationCustom05" required>
+                        <option value="Estudiante" selected>Estudiante</option>
+                        <option value="Trainee">Trainee</option>
+                        <option value="Junior">Junior</option>
+                    </select>
+                   <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                </div>                 
+
+              <div class="form-row fondot">
+                <p class="margenp">Total a pagar $:  </p><p id="importe" class="margenp"></p>
+              </div>
+
+              <div class="form-row botonw">
+                <div class="col-md-6 mb-3">
+                  <button class="btn btn-primary boton" type="reset">Borrar</button>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <button class="btn btn-primary boton" type="submit">Resumen</button>
+                </div>
+              </div>           
+            </form>
+              
+             <script>
+              // Example starter JavaScript for disabling form submissions if there are invalid fields
+              (function() {
+                'use strict';
+                window.addEventListener('load', function() {
+                  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                  var forms = document.getElementsByClassName('needs-validation');
+                  // Loop over them and prevent submission}
+                  var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                      if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                      }
+                      form.classList.add('was-validated');
+                    }, false);
+                  });
+                }, false);
+              })();
+              </script>
+        </div>
+      </article>
+
+
       </section>
     </main>
     <footer class="padre">
@@ -233,6 +360,9 @@
     </footer>
     <script src="./bootstrap-4.6.2-dist/js/bootstrap.min.js"anonymous"></script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="./js/ticket.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
