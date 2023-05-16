@@ -323,7 +323,7 @@ footer{background-color: #535966 !important; }
     .boton4{background-color: green; border: solid 1px green!important}
 
     footer{background-color: #535966;height:100px; font-size: 8px!important; }
-    .pie{background-color: #535966; font-size: 8px!important}
+    .pie{background-color: #535966; font-size: 12px!important}
     .opciones{background: #535966!important;}
     .padre2{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
     .padre{display:flex;justify-content: center;align-items: center;width: 100%;flex-direction: column!important}
@@ -409,8 +409,8 @@ footer{background-color: #535966 !important; }
     .seleccion:hover{background-color: rgb(207, 223, 241);color: rgb(66, 61, 61) !important;}
     .t:hover{background-color: rgb(69, 206, 69);color: white !important;}
     
-    footer{background-color: #535966 !important; }
-    .pie{background-color: #535966; font-size: 15px; color:white;margin: 0px 5px;padding:10px; height:60px!important}
+    footer{background-color: #535966; width:99% !important; }
+    .pie{background-color: #535966; font-size: 15px; color:white;margin: auto; padding:10px; height:50px!important}
     .opciones{background: #535966!important;}
     
     .fondo{background-color: rgb(29, 32, 29)!important;}

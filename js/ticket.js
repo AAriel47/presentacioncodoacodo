@@ -21,3 +21,11 @@ form.addEventListener("submit", e=>{
     document.getElementById("importe").innerHTML=importe;
 
 })
+
+function mostrar(){
+    document.getElementById("oculto").style.display = "block";
+}
+
+function ocultar(){
+    document.getElementById("oculto").style.display = "none";
+}
