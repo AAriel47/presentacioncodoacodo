@@ -24,11 +24,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active seleccion" href="#conferencia" onclick="ocultar()">La conferencia <span class="sr-only">(current)</span></a>
-            <a class="nav-link seleccion" href ="#oradores" onclick="ocultar()">Oradores</a>
-            <a class="nav-link seleccion" href="#lugaryfecha" onclick="ocultar()">El lugar y la fecha</a>
-            <a class="nav-link seleccion" href="#conviertete" onclick="ocultar()">Conviertete en un orador</a>
-            <a class="nav-link tickets t" href="#venta" onclick="mostrar()">Comprar tickets</a>
+            <a class="nav-link active seleccion" href="#conferencia" id = "conferen" onclick="ocultar('conferen')">La conferencia <span class="sr-only">(current)</span></a>
+            <a class="nav-link seleccion" href ="#oradores" id = "orador" onclick="ocultar('orador')">Oradores</a>    
+            <a class="nav-link seleccion" href="#lugaryfecha" id = "lugar" onclick="ocultar('lugar')">El lugar y la fecha</a>
+            <a class="nav-link seleccion" href="#conviertete" id = "convierte" onclick="ocultar('convierte')">Conviertete en un orador</a>
+            <a class="nav-link tickets t" href="#venta" id = "ventas" onclick="mostrar('ventas')">Comprar tickets</a>
           </div>
         </div>
       </nav>
@@ -72,8 +72,8 @@
                 nivel que tenemos para ti. Te esperamos!
             </p>
 
-            <a href="#conviertete"><button class="btn btn-primary boton3" type="submit">Quiero ser Orador</button></a>
-            <a href="#venta"><button class="btn btn-primary boton4" type="submit" onclick="mostrar()">Comprar tickets</button></a>
+            <a href="#conviertete" id = "convierte" onclick="ocultar('convierte')"><button class="btn btn-primary boton3" type="submit">Quiero ser Orador</button></a>
+            <a href="#venta" id = "ventas" onclick="mostrar('ventas')"><button class="btn btn-primary boton4" type="submit" >Comprar tickets</button></a>
         </div>
         </article>
         <article class="presenta padre">
@@ -148,7 +148,7 @@
                   <h5 class="parrafo">Conviertete en un</h5>
                   <h2 class="parra">Orador</h2>
                 </div>
-                <form class="form" novalidate >
+                <form class="form" novalidate id = "form2">
                   <div class="form-row">
                     <div class="col-md-6 mb-3">
                       <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre" required>
@@ -171,7 +171,7 @@
                       </div>
                   </div>
                   <h6>Recuerda incluir un titulo para tu charla</h6>
-                  <button class="btn btn-primary boton" type="submit">Enviar formulario</button>
+                  <button class="btn btn-primary boton" type="submit" onclick="encuesta()">Enviar formulario</button>
                   <a name = "venta"></a>
 
                 </form>      
@@ -197,8 +197,6 @@
                 </script>
           </div>
         </article>
-
-
       <div id="oculto" style="display:none">
         <article class="presenta padre ticket">
             <div>
