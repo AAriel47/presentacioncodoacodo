@@ -1,7 +1,7 @@
 function borrar(){
-var form =document.getElementById("form");
-form.addEventListener("reset",e=>{
-    document.getElementById("importe").innerHTML="";})
+    var form =document.getElementById("form");
+    form.addEventListener("reset",e=>{
+        document.getElementById("importe").innerHTML="";})
 }
 
 function controlmail(){
@@ -13,8 +13,8 @@ function controlmail(){
         errores.classList.remove("error");
     }else{
         errores.classList.add("error");
+        alert("Correo incorrecto");
     }
-
 }
 
 function controlerror(){
@@ -43,7 +43,6 @@ function  enviar(){
         }else{
            errore.classList.remove("error");
             var categoria = document.getElementById("validationCustom05").value;
-            alert(categoria);
             var importe=0;
             switch(categoria){
                 case "Estudiante":
