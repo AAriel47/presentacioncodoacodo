@@ -148,16 +148,16 @@
                   <h5 class="parrafo">Conviertete en un</h5>
                   <h2 class="parra">Orador</h2>
                 </div>
-                <form class="form" novalidate id = "form2">
+                <form class="form" id = "form2">
                   <div class="form-row">
                     <div class="col-md-6 mb-3">
-                      <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre" required>
+                      <input type="text" class="form-control" id="validationCustom1" placeholder="Nombre" required>
                       <div class="valid-feedback">
                         Looks good!
                       </div>
                     </div>
                     <div class="col-md-6 mb-3">
-                      <input type="text" class="form-control" id="validationCustom02" placeholder="Apellido" required>
+                      <input type="text" class="form-control" id="validationCustom2" placeholder="Apellido" required>
                       <div class="valid-feedback">
                         Looks good!
                       </div>
@@ -165,7 +165,7 @@
                   </div>
                   <div class="form-row">
                       <label for="validationCustom03"></label>
-                      <textarea class="form-control texta" name = "comentarios" id="validationCustom03" placeholder="Sobre que hablara" rows= "5" cols="300" required>Sobre que quiere hablar?</textarea>
+                      <textarea class="form-control texta" name = "comentarios" id="validationCustom3" placeholder="Sobre que hablara" rows= "5" cols="300" required>Sobre que quiere hablar?</textarea>
                       <div class="invalid-feedback">
                         Por favor ingrese sobre lo que hablara
                       </div>
@@ -240,7 +240,7 @@
                   <h5 class="centrof">Venta</h5>
                   <h2 class="form2">VALOR DE TICKET $200</h2>
                 </div>
-                <form class="form fancho" novalidate id = "form">
+                <form class="form fancho" id = "form">
                   <div class="form-row">
                     <div class="col-md-6 mb-3">
                       <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre" required>
@@ -257,7 +257,7 @@
                   </div>
 
                   <div class="form-row email">
-                      <input type="email" class="form-control" id="validationCustom03" placeholder="Correo" required>
+                      <input type="email" class="form-control" id="validationCustom03" placeholder="Correo" required onblur="controlmail()">
                       <div class="valid-feedback">
                         Looks good!
                       </div>
@@ -266,7 +266,7 @@
                   <div class="form-row">
                     <div class="col-md-6 mb-3">
                       <label for="validationCustom04">Cantidad</label>
-                      <input type="text" class="form-control" id="validationCustom04" placeholder="Cantidad" required>
+                      <input type="text" class="form-control" id="validationCustom04" placeholder="Cantidad" required onblur="controlerror()">
                       <div class="valid-feedback">
                         Looks good!
                       </div>
@@ -290,10 +290,10 @@
 
                 <div class="form-row botonw">
                   <div class="col-md-6 mb-3">
-                    <button class="btn btn-primary boton" type="reset">Borrar</button>
+                    <button class="btn btn-primary boton" type="reset" onclick = "borrar()">Borrar</button>
                   </div>
                   <div class="col-md-6 mb-3">
-                    <button class="btn btn-primary boton" type="submit">Resumen</button>
+                    <button class="btn btn-primary boton" type="submit" onclick ="enviar()">Resumen</button>
                   </div>
                 </div>           
               </form>
